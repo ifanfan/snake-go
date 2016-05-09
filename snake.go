@@ -242,7 +242,7 @@ func Render(ds ...ToDraw) {
 			termbox.SetCell(point.x*2+1, point.y, ' ', termbox.ColorDefault, color)
 		}
 	}
-	//termbox.Flush()
+	termbox.Flush()
 }
 
 // RenderT render text into term
